@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PORTOFOLIO ALIF A.R</title>
+  </head>
+  <body>
+    <ul class="list-inline">
+      <li><a href="#">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#hobby">HOBBY</a></li>
+      <li><a href="#study">STUDY</a></li>
+      <li><a href="#contact">CONTACT ME</a></li>
+    </ul>
+    <div class="foto"><img src="foto/AKUU.jpeg" /></div>
+    <div class="namasaya">
+      <h1>Alif Akbar Rajabi</h1>
+      <p><b>MAHASISWA | SANS PEOPLE</b></p>
+    </div>
+
+    <section id="about">
+      <div class="aboutme">
+        <h2>ABOUT ME</h2>
+        <p>
+          Nama saya Alif Akbar Rajabi,Saya lahir di kota Bandung,Jawa barat.Umur
+          saya 19 tahun.status saya saat ini Mahasiswa, saya studi di
+          UNIVERSITAS PASUNDAN dengan prodi teknik informatika.hobi saya Bermain
+          Dota & Point blank,design dan bermain badminton.
+        </p>
+      </div>
+    </section>
+    <section id="hobby">
+      <div class="hobby">
+        <h3>HOBBY</h3>
+        <p>
+          <img src="Foto/DOTA 2.jpg" />
+          <img src="Foto/PB.jpg" />
+        </p>
+      </div>
+    </section>
+    <section id="study">
+      <div class="hobby">
+        <h3>STUDY</h3>
+        <p>
+          <img src="foto/RABAR.jpg" />
+          <img src="foto/SMP MUTIARA 4 BANDUNG.jpg" />
+          <img src="Foto/SMA.jpeg" />
+          <img src="Foto/UNPAS.jpg" />
+        </p>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact">
+        <div class="contact-form">
+          <h1>CONTACT ME</h1>
+          <div class="txtb">
+            <label>Nama Lengkap :</label>
+            <input type="text" name="" value="" placeholder="Tulis Nama" />
+          </div>
+          <div class="txtb">
+            <label>Email :</label>
+            <input type="email" name="" value="" placeholder="Tulis Email" />
+          </div>
+          <div class="txtb">
+            <label>Nomor HP :</label>
+            <input type="text" name="" value="" placeholder="Tulis Nomor HP" />
+          </div>
+          <div class="txtb">
+            <label>Pesan :</label>
+            <textarea placeholder="Tulis Pesan"></textarea>
+          </div>
+          <a class="btn">Kirim</a>
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <h1>Created By Alif Akbar Rajabi</h1>
+    </div>
+    <script>
+      document.addEventListener("scroll", function () {
+        const navbar = document.querySelector("nav");
+
+        if (this.body.scrollTop > 1 || this.documentElement.scrollTop > 1) {
+          navbar.classList.add("nav-scrolled", "fixed-top");
+        } else {
+          navbar.classList.remove("nav-scrolled", "fixed-top");
+        }
+      });
+    </script>
+  </body>
+</html>

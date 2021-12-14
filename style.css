@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: white;
+}
+
+ul.list-inline {
+  background-color: rgb(36, 179, 0);
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 20px;
+  text-align: right;
+  position: fixed;
+  z-index: 1;
+}
+
+li {
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+li a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  transition: 0.5s;
+  font-size: 12px;
+}
+
+li a:hover {
+  color: yellowgreen;
+}
+ul.list-inline li.nama {
+  size: 50px;
+}
+.foto img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+.foto {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-size: 35px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.namasaya p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: unset;
+}
+.aboutme h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.aboutme p {
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.aboutme {
+  margin-top: 150px;
+  background-color: rgb(36, 179, 0);
+}
+.hobby h3 {
+  text-align: center;
+  margin-top: 100px;
+  color: black;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.hobby p {
+  text-align: center;
+}
+.hobby img:hover {
+  width: 450px;
+  height: 250px;
+}
+.hobby img {
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.contact-form {
+  margin: 0;
+  display: block;
+  width: 30%;
+  max-width: 600px;
+  background: #fafafa;
+  position: relative;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: var(--poppins);
+}
+.contact-form h1 {
+  margin-top: 0;
+  font-weight: 200;
+  font-family: var(--poppins);
+}
+.txtb {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+.txtb label {
+  display: block;
+  text-align: left;
+  color: #333;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.txtb input,
+.txtb textarea {
+  color: #333;
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btn {
+  display: inline-block;
+  border-radius: 20px;
+  background: #008cba;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  transition: 1s;
+}
+
+.btn:hover {
+  background-color: #60abc4;
+  transform: scale(105%);
+}
+.footer h1 {
+  background-color: rgb(36, 179, 0);
+  width: 100%;
+  height: 40px;
+  margin-top: 200px;
+  padding-bottom: 10px;
+  z-index: 1;
+  font-family: "Gill Sans", "Gill Sans MT", Arial, Helvetica, sans-serif,
+    "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding-top: 11px;
+}
